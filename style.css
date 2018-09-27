@@ -1,12 +1,12 @@
 .row{   
 
-    background-color:black;
+    background-color:yellow;
     color:white;
     font-size:20px;
 }
 .headshot{
-    width:20%;
-    height: 20%;
+    width:200px;
+    height:200px;
    
 }
 .mid{
@@ -19,4 +19,12 @@
 }
 .aboutme{
     border:1px solid black;   
+}
+.row.footer{
+display:flex;
+background-color:black;
+color:blue;
+justify-content:space-around;
+font-size: 20px;
+
 }
